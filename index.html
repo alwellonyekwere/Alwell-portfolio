@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Onyekwere Chidi Alwell | Penetration Tester</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#0b0b0b;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      background:#111;
+      padding:20px 10%;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      position:sticky;
+      top:0;
+    }
+
+    header h1{
+      color:#00ff99;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin-left:20px;
+    }
+
+    nav a:hover{
+      color:#00ff99;
+    }
+
+    .hero{
+      height:100vh;
+      background:url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1600&auto=format&fit=crop') center/cover;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    .hero-content{
+      background:rgba(0,0,0,0.7);
+      padding:40px;
+      border-radius:15px;
+    }
+
+    .hero h2{
+      font-size:50px;
+      margin-bottom:20px;
+    }
+
+    .hero span{
+      color:#00ff99;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 25px;
+      background:#00ff99;
+      color:black;
+      text-decoration:none;
+      border-radius:5px;
+      font-weight:bold;
+    }
+
+    section{
+      padding:80px 10%;
+    }
+
+    .title{
+      text-align:center;
+      color:#00ff99;
+      margin-bottom:40px;
+      font-size:35px;
+    }
+
+    .about{
+      display:grid;
+      grid-template-columns:1fr 1fr;
+      gap:40px;
+      align-items:center;
+    }
+
+    .about img{
+      width:100%;
+      border-radius:15px;
+    }
+
+    .skills{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+      gap:20px;
+    }
+
+    .skill-box{
+      background:#111;
+      padding:30px;
+      text-align:center;
+      border-radius:10px;
+      border:1px solid #222;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:25px;
+    }
+
+    .project-card{
+      background:#111;
+      border-radius:15px;
+      overflow:hidden;
+    }
+
+    .project-card img{
+      width:100%;
+      height:220px;
+      object-fit:cover;
+    }
+
+    .project-content{
+      padding:20px;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#111;
+      margin-top:40px;
+    }
+
+    @media(max-width:768px){
+      .about{
+        grid-template-columns:1fr;
+      }
+
+      .hero h2{
+        font-size:35px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Pen_Tester Portfolio</h1>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-content">
+    <h2>Onyekwere <span>Chidi Alwell</span></h2>
+
+    <p>
+       Penetration Tester | Ethical Hacker | 
+    </p>
+
+    <a href="#contact" class="btn">Hire Me</a>
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="title">About Me</h2>
+
+  <div class="about">
+
+    <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop">
+
+    <div>
+      <p>
+        I am a passionate penetration tester skilled in ethical hacking,
+        vulnerability assessment, web security testing, and network security.
+      </p>
+
+      <br>
+
+      <p>
+        Experienced with tools like Kali Linux, Burp Suite, Nmap,
+        Wireshark, Metasploit, and John The Ripper.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="title">Technical Skills</h2>
+
+  <div class="skills">
+    <div class="skill-box">Nmap</div>
+    <div class="skill-box">Burp Suite</div>
+    <div class="skill-box">Wireshark</div>
+    <div class="skill-box">Metasploit</div>
+    <div class="skill-box">Kali Linux</div>
+    <div class="skill-box">Hydra</div>
+  </div>
+</section>
+
+<section id="projects">
+  <h2 class="title">Projects</h2>
+
+  <div class="projects">
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1510511459019-5dda7724fd87?q=80&w=1200&auto=format&fit=crop">
+    <img src="Image/IMG1.png" alt="IMG1">
+    <img src="Image/IMG2.png" alt="IMG2">
+    <img src="Image/IMG3.png" alt="IMG3">
+    <img src="Image/IMG4.png" alt="IMG4">
+    <img src="Image/IMG5.png" alt="IMG5">
+    <img src="Image/IMG6.png" alt="IMG6">
+    <img src="Image/IMG7.png" alt="IMG7">
+    <img src="Image/IMG8.png" alt="IMG8">
+    <img src="Image/IMG9.png" alt="IMG9">
+    <img src="Image/IMG10.png" alt="IMG10">
+    <img src="Image/IMG11.png" alt="IMG11">
+    <img src="Image/IMG12.png" alt="IMG12">
+    <img src="Image/IMG13.png" alt="IMG13">
+    <img src="Image/IMG14.png" alt="IMG14">
+    <img src="Image/IMG15.png" alt="IMG15">
+    <img src="Image/IMG16.png" alt="IMG16">
+    <img src="Image/IMG17.png" alt="IMG16">
+    <img src="Image/IMG18.png" alt="IMG18">
+    <img src="Image/IMG19.png" alt="IMG19">
+    <img src="Image/IMG20.png" alt="IMG20">
+    <img src="Image/IMG21.png" alt="IMG21">
+    <img src="Image/IMG22.png" alt="IMG22">
+    <img src="Image/IMG23.png" alt="IMG23">
+
+
+
+      <div class="project-content">
+        <h3>Network Vulnerability Assessment</h3>
+
+        <p>
+          Conducted vulnerability scanning and penetration testing on networks.
+        </p>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=1200&auto=format&fit=crop">
+
+      <div class="project-content">
+        <h3>Web Application Testing</h3>
+
+        <p>
+          Tested web applications for security vulnerabilities and weaknesses.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="contact">
+  <h2 class="title">Contact Me</h2>
+
+  <p style="text-align:center;">
+    Email: alwellonyekwere@gmail.com
+
+
+  <p style="text-align:center;">
+    LinkedIn: linkedin.com/in/onyekwere-chidi-b69927239
+  </p>
+</section>
+
+<footer>
+  <p>
+    © 2026 Onyekwere Chidi Alwell | Penetration Tester
+  </p>
+</footer>
+
+<script>
+  alert("Welcome to Onyekwere Chidi Alwell Portfolio");
+</script>
+
+</body>
+</html>
